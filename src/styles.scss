@@ -1,0 +1,22 @@
+@import 'scss/reset';
+@import 'scss/base';
+
+.hero {
+  height: 100%;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-size: calc(108vw * 100 / 1440);
+    margin-bottom: calc(12vw * 100 / 1440);
+    font-family: 'Merriweather', serif;
+    color: #fff;
+  }
+
+  p {
+    font-size: calc(24vw * 100 / 1440);
+  }
+}

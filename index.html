@@ -41,7 +41,7 @@
     <header>
         <img src="src/img/Logo-blanc.png" alt="Logo-Couleur-Sdv">
         <div>
-            <h1>Tp-Évalutation Sup de Vinci</h1>
+            <h1>Eval sdv</h1>
             <h2>Petit outil permettant d'effectuer des recherches sur un très large choix de jeux vidéos.</h2>
         </div>
     </header>
@@ -50,22 +50,29 @@
             <input id="search-input"  type="text" placeholder="Rechercher un jeu">
             <button id="search-btn" type="button">Rechercher</button>
         </div>
-        <button type="button">Favoris</button>
+        <button id="favoris-btn" type="button">Favoris</button>
     </nav>
     <div id="loaderCss" class="loading">
-        <div></div>
+        <div class="loader">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="modal">
     </div>
     <section class="hero__section">
-        <div class="container">
-            <div>
-                <img src="src/img/Logo-couleur.png">
-                <h2>Titre de très très très très très très jeu</h2>
-            </div>
+        <div class="container-jeux">
+            <h3 class="effectuez__h3">Effectuez une recherche...</h3>
         </div>
     </section>
     <footer>
-
+        <div>Dev par <b>Noé</b></div>
+        <div>Data samples from:<a href="https://www.giantbomb.com/" target="_blank"> <b>GiantBomb</b></a></div>
+        <a href="https://www.supdevinci.fr/" target="_blank"> <b>Sup de Vinci</b></a>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="src/app.js"></script>
 </body>
 </html>

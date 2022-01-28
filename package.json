@@ -14,11 +14,12 @@
     "dao": "^0.0.4",
     "parcel-plugin-asset-copier": "^1.1.0",
     "parcel-plugin-html-root-syntax": "0.0.3",
-    "scss": "^0.2.4"
+    "scss": "^0.2.4",
+    "search": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^17.0.10",
-    "parcel-bundler": "^1.6.1",
+    "parcel-bundler": "^1.12.5",
     "request": "^2.88.2",
     "sass": "^1.26.11",
     "typescript": "^4.4.3"
